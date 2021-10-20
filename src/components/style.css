@@ -1,0 +1,54 @@
+.pagination-box input{
+    width: 30%;
+    padding:5px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+}
+.pagination-box button{
+    background-color: lightgreen;
+    border: 1px solid lightgrey;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width: 8%;
+    text-transform: uppercase;
+
+}
+.pagination-box button:hover{
+    background-color: rgb(104, 240, 104);
+    border: 1px solid lightgrey;
+}
+.pagination-table table{
+    /* background-color: rgb(226, 226, 226); */
+    border: 1px solid rgb(179, 179, 179);
+    
+}
+.pagination-table thead{
+    /* background-color: rgb(226, 226, 226); */
+  background-color: rgb(112, 179, 93);
+  color: white;
+  text-transform: uppercase;
+}
+.pagination-buttons {
+    padding: 10px;
+    float: right;
+}
+.pagination-buttons button{
+    margin: 4px !important;
+    /* padding: 2px; */
+    /* width: 2%; */
+    border: 1px solid rgb(161, 161, 161);
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+.pagination-buttons .previous{
+    background-color: rgb(84, 154, 219) !important;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    
+}
+.pagination-buttons .previous:disabled{
+    color: rgb(66, 65, 65);
+    background-color: lightgray !important;
+}
